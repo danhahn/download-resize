@@ -47,4 +47,4 @@ const fileData = files.map( file => {
   };
 });
 
-fileData.map( file => download(file.uri, `${folderPath}/${file.filename}.jpg`, () => console.log('done')));
+fileData.map( file => download(file.uri, `${folderPath}/${file.filename}`, () => console.log('done')));
