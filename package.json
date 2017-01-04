@@ -1,0 +1,24 @@
+{
+  "name": "download-resize",
+  "version": "0.0.1",
+  "description": "Simple tools to download and resize images",
+  "main": "download.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danhahn/download-resize.git"
+  },
+  "author": "Dan Hahn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danhahn/download-resize/issues"
+  },
+  "homepage": "https://github.com/danhahn/download-resize#readme",
+  "dependencies": {
+    "gm": "^1.23.0",
+    "mkdirp": "^0.5.1",
+    "request": "^2.79.0"
+  }
+}
